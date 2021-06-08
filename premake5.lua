@@ -33,6 +33,6 @@ project "yaml-cpp"
 		runtime "Debug"
 		symbols "on"
 
-	filter "configurations:Release"
-		runtime "Release"
+	filter "configurations:release"
+		defines "SN_RELEASE"
 		optimize "on"
