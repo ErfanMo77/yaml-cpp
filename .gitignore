@@ -2,3 +2,5 @@ build/
 /tags
 /bazel-*
 *.vcxproj.*
+.vs/
+*.vcxproj
